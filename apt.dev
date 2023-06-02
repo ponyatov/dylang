@@ -1,0 +1,2 @@
+code meld doxygen clang-format
+g++ cmake flex bison libreadline-dev

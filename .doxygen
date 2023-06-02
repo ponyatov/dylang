@@ -1,0 +1,17 @@
+PROJECT_NAME           = "dylang"
+PROJECT_BRIEF          = "OCaml-hosted compilib"
+PROJECT_LOGO           = doc/logo.svg
+HTML_OUTPUT            = docs
+OUTPUT_DIRECTORY       =
+INPUT                  = README.md doc src inc
+EXCLUDE                = doc/meta src/*-*
+WARN_IF_UNDOCUMENTED   = NO
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+GENERATE_LATEX         = NO
+FILE_PATTERNS         += *.lex *.yacc
+EXTENSION_MAPPING      = lex=C++ yacc=C++ ino=C++
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+LAYOUT_FILE            = doc/DoxygenLayout.xml
+SORT_GROUP_NAMES       = YES

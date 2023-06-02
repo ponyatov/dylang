@@ -1,0 +1,17 @@
+{
+	"recommendations": [
+		"ryuta46.multi-command",
+		"stkb.rewrap",
+		// "tabnine.tabnine-vscode",
+		"ms-vscode.makefile-tools",
+		// formatters
+		"xaver.clang-format",
+		// misc
+		// "hbenl.vscode-test-explorer",
+		// "usernamehw.errorlens",
+		// "ms-vscode-remote.remote-ssh",
+		// "ms-azuretools.vscode-docker",
+        // OCaml
+        "ocamllabs.ocaml-platform",
+	]
+}
